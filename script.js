@@ -1,25 +1,44 @@
 const slides = document.querySelectorAll('.slide');
-const next = document.querySelector('.next');
-const prev = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+const prevBtn = document.querySelector('.prev');
 
-let current = 0;
+let currentSlide = 0;
+
+/* SHOW CURRENT SLIDE */
 
 function showSlide(index){
-  slides.forEach(slide => slide.classList.remove('active'));
+
+  slides.forEach((slide) => {
+    slide.classList.remove('active');
+  });
+
   slides[index].classList.add('active');
 }
 
-next.addEventListener('click', () => {
-  current = (current + 1) % slides.length;
-  showSlide(current);
+/* NEXT BUTTON */
+
+nextBtn.addEventListener('click', () => {
+
+  currentSlide = (currentSlide + 1) % slides.length;
+
+  showSlide(currentSlide);
 });
 
-prev.addEventListener('click', () => {
-  current = (current - 1 + slides.length) % slides.length;
-  showSlide(current);
+/* PREVIOUS BUTTON */
+
+prevBtn.addEventListener('click', () => {
+
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+
+  showSlide(currentSlide);
 });
+
+/* AUTO SLIDE EVERY 5 SECONDS */
 
 setInterval(() => {
-  current = (current + 1) % slides.length;
-  showSlide(current);
+
+  currentSlide = (currentSlide + 1) % slides.length;
+
+  showSlide(currentSlide);
+
 }, 5000);
