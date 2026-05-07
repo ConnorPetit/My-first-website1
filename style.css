@@ -18,8 +18,8 @@ body{
 /* HEAD SECTION */
 
 .head{
-  height:85vh;
-  background:url("images/background.jpg") center/cover no-repeat;
+  height:500px;
+  background:black;
   position:relative;
   display:flex;
   flex-direction:column;
