@@ -4,7 +4,7 @@ const prevBtn = document.querySelector('.prev');
 
 let currentSlide = 0;
 
-/* SHOW CURRENT SLIDE */
+/* Shows Current Slide */
 
 function showSlide(index){
 
@@ -15,7 +15,7 @@ function showSlide(index){
   slides[index].classList.add('active');
 }
 
-/* NEXT BUTTON */
+/* Next button */
 
 nextBtn.addEventListener('click', () => {
 
@@ -24,7 +24,7 @@ nextBtn.addEventListener('click', () => {
   showSlide(currentSlide);
 });
 
-/* PREVIOUS BUTTON */
+/* Prev button */
 
 prevBtn.addEventListener('click', () => {
 
@@ -33,7 +33,7 @@ prevBtn.addEventListener('click', () => {
   showSlide(currentSlide);
 });
 
-/* AUTO SLIDE EVERY 5 SECONDS */
+/*5 seconds */
 
 setInterval(() => {
 
