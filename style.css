@@ -15,7 +15,7 @@ body{
   line-height:1.6;
 }
 
-/* HEAD SECTION */
+/* Header */
 
 .head{
   height:500px;
@@ -30,7 +30,7 @@ body{
   background:rgba(0,0,0,0.65);
 }
 
-/* NAVIGATION */
+/* Nav */
 
 nav{
   position:relative;
@@ -62,7 +62,7 @@ nav a:hover{
   color:#8a6cff;
 }
 
-/* HEAD CONTENT */
+/* Header Contnent */
 
 .head-content{
   position:relative;
@@ -84,13 +84,13 @@ nav a:hover{
   font-size:1.5rem;
 }
 
-/* GENERAL SECTION */
+/* Main */
 
 .section{
   padding:90px;
 }
 
-/* PORTFOLIO SECTION */
+/* Portfolio */
 
 .portfolio-section{
   background:#f5f5f5;
@@ -103,7 +103,7 @@ nav a:hover{
   margin-bottom:50px;
 }
 
-/* CAROUSEL */
+/* Carousel */
 
 .carousel{
   position:relative;
@@ -154,7 +154,7 @@ nav a:hover{
   right:15px;
 }
 
-/* ABOUT SECTION */
+/* About me */
 
 .about-section{
   background:#ffffff;
@@ -185,7 +185,7 @@ nav a:hover{
   box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
-/* SKILLS SECTION */
+/* Skills */
 
 .skills-section{
   background:#dbe3f7;
@@ -218,7 +218,7 @@ nav a:hover{
   transform:translateY(-5px);
 }
 
-/* CONTACT SECTION */
+/* Contact*/
 
 .contact-section{
   background:#1a1a1a;
@@ -268,7 +268,7 @@ nav a:hover{
   background:#7357e6;
 }
 
-/* FOOTER */
+/* Footer */
 
 footer{
   text-align:center;
@@ -282,7 +282,7 @@ footer p{
   color:#bbb;
 }
 
-/* MOBILE RESPONSIVE */
+/* Mobile layout */
 
 @media(max-width:900px){
 
