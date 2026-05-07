@@ -78,7 +78,7 @@ nav a:hover{
 
 .head-content h1{
   font-size:4rem;
-  margin-bottom:15px;
+  margin-bottom:13px;
 }
 
 .head-content p{
@@ -89,7 +89,7 @@ nav a:hover{
 /* GENERAL SECTION */
 
 .section{
-  padding:90px 8%;
+  padding:90px;
 }
 
 /* PORTFOLIO SECTION */
